@@ -56,6 +56,10 @@ class ImageHash:
 
         return hash_str
 
+    def phash(self) -> str:
+        # todo 未实现
+        pass
+
 
 # 使用示例
 if __name__ == "__main__":
@@ -64,4 +68,3 @@ if __name__ == "__main__":
     img_hash = ImageHash(img_path)
     print("aHash:", img_hash.ahash())
     print("dHash:", img_hash.dhash())
-
